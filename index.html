@@ -24,8 +24,8 @@
       <nav class="nav" aria-label="Основная навигация">
         <ul class="nav-list">
           <li class="nav-item"><a href="index.html#hero" class="nav-link active">Главная</a></li>
-          <li class="nav-item"><a href="index.html#showcase" class="nav-link">Работы</a></li>
           <li class="nav-item"><a href="index.html#about" class="nav-link">О нас</a></li>
+          <li class="nav-item"><a href="index.html#showcase" class="nav-link">Работы</a></li>
           <li class="nav-item"><a href="index.html#reviews" class="nav-link">Отзывы</a></li>
           <li class="nav-item"><a href="catalog.html" class="nav-link">Услуги и цены</a></li>
         </ul>
@@ -67,9 +67,128 @@
 
   <main id="main-content">
     <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">Минск, ул. Жореса Алферова, 7</div>
+          <h1 class="hero-title">Премиальный барбершоп <span>EVAL</span> в Минске</h1>
+          <p class="hero-desc">
+            Искусство мужской стрижки, опасного бритья и первоклассного сервиса. Пространство силы, эстетики и
+            безупречного стиля для мужчин, ценящих своё время и образ.
+          </p>
+          <div class="hero-actions">
+            <a href="catalog.html" class="btn-primary">Выбрать услугу и записаться</a>
+            <a href="#about" class="btn-outline">Узнать о философии</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">10+</span>
+              <span class="stat-label">лет опыта топ-мастеров</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">15 000+</span>
+              <span class="stat-label">довольных постоянных гостей</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">4.9 / 5</span>
+              <span class="stat-label">средняя оценка в Минске</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img class="emblem-img emblem-img--dark" src="assets/images/eval_barbershop_dark.webp"
+            alt="Фирменный герб и геральдика барбершопа EVAL Минск" width="553" height="553">
+          <img class="emblem-img emblem-img--light" src="assets/images/eval_barbershop_light.webp"
+            alt="Фирменный герб и геральдика барбершопа EVAL Минск" width="553" height="553">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
       <div class="container">
-        <h1>Премиальный барбершоп EVAL в Минске</h1>
-        <p>Искусство классических стрижек и ухода за бородой.</p>
+        <p class="section-subtitle">Философия и традиции</p>
+        <h2 class="section-title">Мужской клуб и культура барберинга в Минске</h2>
+        <p class="section-desc">
+          EVAL — это не конвейерная парикмахерская. Это закрытый клуб, в котором каждая стрижка возведена в ранг
+          искусства.
+        </p>
+
+        <div class="about-layout">
+          <div class="about-media">
+            <img src="assets/images/barbershop.webp" alt="Интерьер и рабочие места барберов в EVAL Barbershop"
+              width="650" height="980">
+          </div>
+          <div class="about-info">
+            <h3>Точность в каждой линии, комфорт в каждой минуте</h3>
+            <p class="about-text">
+              Мы открыли двери в 2020 году на Немиге с одной целью: дать жителям и гостям Минска пространство, где
+              мастерство барбера гармонично сочетается с клубной атмосферой уважения и релакса.
+            </p>
+            <p class="about-text">
+              В работе используются японские ножницы ручной ковки, винтажные кресла с анатомической поддержкой и
+              премиальные линейки косметики из Италии, Англии и США.
+            </p>
+            <blockquote class="about-quote">
+              «Стиль мужчины — это его молчаливое заявление миру. Мы лишь помогаем сделать его безупречным.»
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Барберы-эксперты</h3>
+            <p class="feature-text">Все мастера имеют квалификацию Top &amp; Brand Barber со стажем от 5 лет и опытом
+              побед в батлах.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Мировая косметика</h3>
+            <p class="feature-text">Используем сертифицированные бренды Proraso, Morgan's, Reuzel, Lockhart's для
+              безупречного ухода.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Безопасность 100%</h3>
+            <p class="feature-text">Медицинская 3-х ступенчатая стерилизация инструмента в сухожаре и одноразовые
+              расходные материалы.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Lounge Bar &amp; Coffee</h3>
+            <p class="feature-text">Свежесваренный спешелти кофе и приятная музыка для вашего
+              отдыха.</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
