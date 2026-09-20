@@ -1429,3 +1429,18 @@ h6 {
     padding: 20px 16px;
   }
 }
+a, button, input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 3px;
+}
+
+.hero-actions .btn-primary:active,
+.hero-actions .btn-outline:active,
+.btn-card:active,
+.btn-load-more:active {
+  transform: translateY(0);
+}
