@@ -1,5 +1,4 @@
-﻿// Theme Switcher (Dark / Light)
-(function () {
+﻿(function () {
   const STORAGE_KEY = 'eval_barbershop_theme';
   const EASTER_EGG_STORAGE_KEY = 'eval_barbershop_easter_egg';
 
@@ -54,3 +53,4 @@
     });
   });
 })();
+
