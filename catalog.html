@@ -1,0 +1,387 @@
+﻿<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Услуги и цены — EVAL Barbershop Minsk</title>
+  <meta name="description"
+    content="Прайс-лист и каталог услуг барбершопа EVAL в Минске: мужские стрижки, уход за бородой, королевское бритье и комплексные процедуры.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Барбершоп EVAL Главная">
+        <span class="logo-main">EVAL<span>.</span></span>
+        <span class="logo-sub">Barbershop Minsk</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html#hero" class="nav-link">Главная</a></li>
+          <li class="nav-item"><a href="index.html#about" class="nav-link">О нас</a></li>
+          <li class="nav-item"><a href="index.html#showcase" class="nav-link">Работы</a></li>
+          <li class="nav-item"><a href="index.html#reviews" class="nav-link">Отзывы</a></li>
+          <li class="nav-item"><a href="catalog.html" class="nav-link active">Услуги и цены</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Включить светлую тему"
+          aria-pressed="false">
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#services-catalog" class="btn-primary">Записаться онлайн</a>
+
+        <button class="burger-btn" type="button" aria-label="Открыть мобильное меню">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="catalog-hero">
+      <div class="container">
+        <p class="section-subtitle">Минск • ул. Жореса Алферова, 7</p>
+        <h1 class="catalog-hero-title">Услуги и стоимость в барбершопе <span>EVAL</span></h1>
+        <p class="catalog-hero-desc">
+          Честные цены, безупречная стерильность инструмента и внимание к индивидуальным чертам лица каждого гостя. В
+          стоимость стрижек входит мытье головы и профессиональный стайлинг.
+        </p>
+
+        <div class="category-tabs-wrapper">
+          <div class="category-tabs" role="group" aria-label="Категории услуг">
+            <button class="tab-btn active" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+              </svg>
+              <span>Мужские стрижки</span>
+            </button>
+            <button class="tab-btn" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 11v2a5 5 0 0 0 10 0v-2"></path>
+                <path d="M12 21a9 9 0 0 0 9-9V4H3v8a9 9 0 0 0 9 9Z"></path>
+              </svg>
+              <span>Борода и бритьё</span>
+            </button>
+            <button class="tab-btn" type="button">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <span>Комплексы и уход</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-catalog" class="catalog-section">
+      <div class="container">
+        <h2 class="visually-hidden"
+          style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">
+          Список мужских стрижек</h2>
+
+        <div class="catalog-grid">
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Классическая мужская стрижка в EVAL Barbershop"
+                width="400" height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Стрижка</span>
+              <h3 class="card-title">Мужская стрижка</h3>
+              <p class="card-desc">Индивидуальный подбор формы под тип лица, мытье головы с массажем и укладка
+                премиальной мужской косметикой.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">50 BYN</span>
+                  <span class="card-duration">50 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Стрижка Fade и текстурный Crop" width="400"
+                height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Трендовый стиль</span>
+              <h3 class="card-title">Fade &amp; Textured Crop</h3>
+              <p class="card-desc">Безупречный дымчатый переход на висках с текстурным пепельным или матовым верхом.
+                Легко укладывается глиной.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">55 BYN</span>
+                  <span class="card-duration">50 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Удлиненная стрижка ножницами Scissor Cut"
+                width="400" height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Классика</span>
+              <h3 class="card-title">Удлиненная стрижка ножницами</h3>
+              <p class="card-desc">Работа исключительно японскими ножницами ручной ковки для сохранения природной
+                текстуры и подвижности длинных волос.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">60 BYN</span>
+                  <span class="card-duration">60 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Стрижка под машинку Buzz Cut с окантовкой"
+                width="400" height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Минимализм</span>
+              <h3 class="card-title">Стрижка машиной (Buzz Cut)</h3>
+              <p class="card-desc">Короткая практичная стрижка с использованием 1-3 насадок, четкой окантовкой висков и
+                мытьем головы.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">35 BYN</span>
+                  <span class="card-duration">30 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Детская стрижка для мальчиков в Минске"
+                width="400" height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Юниор</span>
+              <h3 class="card-title">Детская стрижка (до 12 лет)</h3>
+              <p class="card-desc">Терпеливый и дружелюбный подход к юным джентльменам. Стильная форма, которую легко
+                поддерживать родителям.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">40 BYN</span>
+                  <span class="card-duration">45 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Комплекс стрижек Отец и Сын в EVAL Barbershop"
+                width="400" height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Семейный комплекс</span>
+              <h3 class="card-title">Отец и сын</h3>
+              <p class="card-desc">Стрижка для двоих в одном пространстве. Отличная традиция совместного мужского отдыха
+                и ухода за собой.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">85 BYN</span>
+                  <span class="card-duration">60 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Камуфляж седины волос для мужчин" width="400"
+                height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Тонирование</span>
+              <h3 class="card-title">Камуфляж седины волос</h3>
+              <p class="card-desc">Деликатное маскирование седины специальным безаммиачным красителем. Сохраняет
+                естественный глубокий тон.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">45 BYN</span>
+                  <span class="card-duration">30 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="catalog-card">
+            <div class="catalog-card-media">
+              <img src="assets/images/1782313920379-yydb0a.webp" alt="Мужская укладка и SPA мытье головы" width="400"
+                height="300">
+            </div>
+            <div class="catalog-card-body">
+              <span class="card-tag">Стайлинг</span>
+              <h3 class="card-title">Укладка и SPA-мытье головы</h3>
+              <p class="card-desc">Глубокое очищение кожи головы с охлаждающим тоником Reuzel, сушка феном и
+                моделирование формы помадой или пастой.</p>
+              <div class="card-footer">
+                <div class="card-meta">
+                  <span class="card-price">25 BYN</span>
+                  <span class="card-duration">25 минут</span>
+                </div>
+                <button type="button" class="btn-card">Записаться</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="catalog-actions">
+          <button type="button" class="btn-load-more">
+            <span>Показать ещё услуги</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Барбершоп EVAL Главная">
+            <span class="logo-main">EVAL<span>.</span></span>
+            <span class="logo-sub">Barbershop Minsk</span>
+          </a>
+          <p>Премиальное пространство мужского стиля. Сохраняем традиции точного барберинга и безупречного сервиса с
+            2022 года.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h2 class="footer-title">Навигация</h2>
+          <ul class="footer-links">
+            <li><a href="index.html#hero" class="footer-link">Главная</a></li>
+            <li><a href="index.html#about" class="footer-link">О барбершопе</a></li>
+            <li><a href="index.html#showcase" class="footer-link">Наши работы</a></li>
+            <li><a href="index.html#reviews" class="footer-link">Отзывы гостей</a></li>
+            <li><a href="catalog.html" class="footer-link">Услуги и цены</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contacts">
+          <h2 class="footer-title">Контакты</h2>
+          <ul class="footer-contacts-list">
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <a href="https://yandex.by/maps/org/eval/52623739810/?ll=27.552534%2C53.861995&z=17.97" target="_blank"
+                rel="noopener noreferrer" class="contact-link">г. Минск, ул. Жореса Алферова, 7</a>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <a href="tel:+375291234567" class="contact-link">+375 (29) 123-45-67</a>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>Пн-Вс: 10:00 — 22:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h2 class="footer-title">Мы в сети</h2>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="Наш Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor"
+                  stroke-width="2"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor"
+                  stroke-width="2"></path>
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"></circle>
+              </svg>
+            </a>
+            <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="Наш Telegram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-18.6 7.174a2.235 2.235 0 0 0-.102 4.148l4.475 1.547 1.764 5.378a2.245 2.245 0 0 0 3.738.746l2.846-2.613 4.887 3.593a2.242 2.242 0 0 0 3.518-1.29l3.078-16.516a2.242 2.242 0 0 0-2.432-2.384l-.15.006zm-3.08 4.364l-8.087 7.42-.39 2.766-.757-2.311 9.234-7.875z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 EVAL Barbershop Minsk. Все права защищены.</p>
+        <div class="footer-bottom-links">
+          <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer"
+            class="footer-rs-link">
+            <span>RS School JS/FE 2026</span>
+          </a>
+          <a href="https://github.com/rolling-scopes-school" target="_blank" rel="noopener noreferrer"
+            class="footer-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

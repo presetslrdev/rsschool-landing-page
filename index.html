@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVAL Barbershop — Премиальный мужской барбершоп в Минске</title>
+  <meta name="description"
+    content="Премиальный барбершоп EVAL в Минске. Мужские стрижки, моделирование бороды, королевское бритье и премиальный уход.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Барбершоп EVAL Главная">
+        <span class="logo-main">EVAL<span>.</span></span>
+        <span class="logo-sub">Barbershop Minsk</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html#hero" class="nav-link active">Главная</a></li>
+          <li class="nav-item"><a href="index.html#about" class="nav-link">О нас</a></li>
+          <li class="nav-item"><a href="index.html#showcase" class="nav-link">Работы</a></li>
+          <li class="nav-item"><a href="index.html#reviews" class="nav-link">Отзывы</a></li>
+          <li class="nav-item"><a href="catalog.html" class="nav-link">Услуги и цены</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Включить светлую тему"
+          aria-pressed="false">
+
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="catalog.html" class="btn-primary">Записаться</a>
+
+        <button class="burger-btn" type="button" aria-label="Открыть мобильное меню">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <main id="main-content">
+
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">Минск • ул. Жореса Алферова, 7</div>
+          <h1 class="hero-title">Премиальный барбершоп <span>EVAL</span> в Минске</h1>
+          <p class="hero-desc">
+            Искусство мужской стрижки, опасного бритья и первоклассного сервиса. Пространство силы, эстетики и
+            безупречного стиля для мужчин, ценящих своё время и образ.
+          </p>
+          <div class="hero-actions">
+            <a href="catalog.html" class="btn-primary">Выбрать услугу и записаться</a>
+            <a href="#about" class="btn-outline">Узнать о философии</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">10+</span>
+              <span class="stat-label">лет опыта топ-мастеров</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">15 000+</span>
+              <span class="stat-label">довольных постоянных гостей</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">4.9 / 5</span>
+              <span class="stat-label">средняя оценка в Минске</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="brand-badge">
+            <img src="assets/images/eval_barbershop_dark.webp" alt="Фирменный знак EVAL Barbershop Minsk (темная тема)"
+              class="theme-img-dark" width="600" height="600">
+            <img src="assets/images/eval_barbershop_light.webp"
+              alt="Фирменный знак EVAL Barbershop Minsk (светлая тема)" class="theme-img-light" width="600"
+              height="600">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <p class="section-subtitle">Философия и традиции</p>
+        <h2 class="section-title">Мужской клуб и культура барберинга в Минске</h2>
+        <p class="section-desc">
+          EVAL — это не конвейерная парикмахерская. Это закрытый клуб, в котором каждая стрижка возведена в ранг
+          искусства.
+        </p>
+
+        <div class="about-layout">
+          <div class="about-media">
+            <img src="assets/images/barbershop.webp"
+              alt="Интерьер, рабочее кресло и фирменный неон EVAL Barbershop на ул. Жореса Алферова" width="700"
+              height="1050">
+          </div>
+          <div class="about-info">
+            <h3>Точность в каждой линии, комфорт в каждой минуте</h3>
+            <p class="about-text">
+              Мы открыли двери в 2022 году на ул. Жореса Алферова с одной целью: дать жителям и гостям Минска
+              пространство, где мастерство барбера гармонично сочетается с клубной атмосферой уважения и релакса.
+            </p>
+            <p class="about-text">
+              В работе используются японские ножницы ручной ковки, винтажные кресла с анатомической поддержкой и
+              премиальные линейки мужской косметики из Италии, Англии и США.
+            </p>
+            <blockquote class="about-quote">
+              «Стиль мужчины — это его молчаливое заявление миру. Мы лишь помогаем сделать его безупречным.»
+            </blockquote>
+          </div>
+        </div>
+
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h3 class="feature-title">Барберы-эксперты</h3>
+            <p class="feature-text">Все мастера имеют квалификацию Top &amp; Brand Barber со стажем от 5 лет и опытом
+              побед в батлах.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Мировая косметика</h3>
+            <p class="feature-text">Используем сертифицированные бренды Proraso, Morgan's, Reuzel, Lockhart's для
+              безупречного ухода.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">Безопасность 100%</h3>
+            <p class="feature-text">Медицинская 3-х ступенчатая стерилизация инструмента в сухожаре и одноразовые
+              расходные материалы.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">Lounge Bar &amp; Coffee</h3>
+            <p class="feature-text">Свежесваренный спешелти кофе, односолодовые напитки и приятная музыка для вашего
+              отдыха.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="showcase" class="showcase-section">
+      <div class="container">
+        <p class="section-subtitle">Мастерство в деталях</p>
+        <h2 class="section-title">Фирменные работы и стрижки</h2>
+        <p class="section-desc">
+          Вдохновляйтесь образами, созданными топ-барберами EVAL. Каждый стиль проектируется под форму лица, структуру
+          волос и ваш ритм жизни.
+        </p>
+
+        <div class="slider-container">
+          <div class="slider-track-wrapper">
+            <div class="slider-track">
+
+              <article class="slide-card">
+                <div class="slide-image-wrapper">
+                  <img src="assets/images/1782313920379-yydb0a.webp" alt="Мужская стрижка Fade и текстурный Crop"
+                    width="600" height="450">
+                </div>
+                <div class="slide-body">
+                  <span class="slide-category">Современный стиль</span>
+                  <h3 class="slide-title">Fade &amp; Textured Crop</h3>
+                  <p class="slide-desc">Плавный переход на висках с контрастной текстурной укладкой. Легко укладывается
+                    глиной или матовой пастой.</p>
+                  <div class="slide-footer">
+                    <span class="slide-price">55 BYN</span>
+                    <span class="slide-duration">50 мин</span>
+                  </div>
+                </div>
+              </article>
+
+
+              <article class="slide-card">
+                <div class="slide-image-wrapper">
+                  <img src="assets/images/1782313920379-yydb0a.webp"
+                    alt="Классическая стрижка Side Part с моделированием бороды" width="600" height="450">
+                </div>
+                <div class="slide-body">
+                  <span class="slide-category">Бизнес-классика</span>
+                  <h3 class="slide-title">Classic Side Part &amp; Beard</h3>
+                  <p class="slide-desc">Строгий пробор в британском стиле в сочетании с четкой геометрией и окантовкой
+                    бороды опасной бритвой.</p>
+                  <div class="slide-footer">
+                    <span class="slide-price">75 BYN</span>
+                    <span class="slide-duration">75 мин</span>
+                  </div>
+                </div>
+              </article>
+
+
+              <article class="slide-card">
+                <div class="slide-image-wrapper">
+                  <img src="assets/images/1782313920379-yydb0a.webp" alt="Мужская стрижка Pompadour и мягкий Taper Fade"
+                    width="600" height="450">
+                </div>
+                <div class="slide-body">
+                  <span class="slide-category">Винтажный шик</span>
+                  <h3 class="slide-title">Pompadour &amp; Taper</h3>
+                  <p class="slide-desc">Объемная укладка на помаде на водной основе с чистыми плавными линиями сведения
+                    височной зоны.</p>
+                  <div class="slide-footer">
+                    <span class="slide-price">60 BYN</span>
+                    <span class="slide-duration">60 мин</span>
+                  </div>
+                </div>
+              </article>
+
+
+              <article class="slide-card">
+                <div class="slide-image-wrapper">
+                  <img src="assets/images/1782313920379-yydb0a.webp"
+                    alt="Ультракороткая стрижка Buzz Cut и бритье контуров" width="600" height="450">
+                </div>
+                <div class="slide-body">
+                  <span class="slide-category">Минимализм</span>
+                  <h3 class="slide-title">Buzz Cut &amp; Razor Line</h3>
+                  <p class="slide-desc">Брутальная ультракороткая стрижка под несколько насадок с филигранной доработкой
+                    контуров шеи и висков.</p>
+                  <div class="slide-footer">
+                    <span class="slide-price">40 BYN</span>
+                    <span class="slide-duration">35 мин</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+
+          <div class="slider-controls">
+            <div class="slider-dots" role="group" aria-label="Индикаторы слайдов">
+              <span class="slider-dot active" aria-current="true"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+              <span class="slider-dot"></span>
+            </div>
+
+            <div class="slider-arrows">
+              <button class="slider-arrow prev" type="button" aria-label="Предыдущий слайд">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <button class="slider-arrow next" type="button" aria-label="Следующий слайд">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="reviews" class="reviews-section">
+      <div class="container">
+        <p class="section-subtitle">Доверие и репутация</p>
+        <h2 class="section-title">Что говорят гости EVAL</h2>
+        <p class="section-desc">
+          Более 80% наших гостей приходят по рекомендации друзей и становятся постоянными клиентами с первой стрижки.
+        </p>
+
+        <div class="reviews-grid">
+
+          <article class="review-card">
+            <div class="review-stars" role="img" aria-label="Оценка 5 из 5">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+            </div>
+            <blockquote class="review-quote">
+              «Стригусь в EVAL уже третий год. Мастера понимают с полуслова, никогда не спешат и всегда доводят форму до
+              идеала. Отдельный респект за отличный кофе и атмосферу спокойствия.»
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar">АВ</div>
+              <div class="review-meta">
+                <h3 class="review-name">Александр Васильев</h3>
+                <span class="review-visit">IT-директор • постоянный гость</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="review-card">
+            <div class="review-stars" role="img" aria-label="Оценка 5 из 5">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+            </div>
+            <blockquote class="review-quote">
+              «Королевское бритье опасной бритвой — это лучший ритуал перезагрузки после рабочей недели. Горячие
+              полотенца с эфирными маслами, аккуратность и гладкая кожа без раздражения.»
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar">ДМ</div>
+              <div class="review-meta">
+                <h3 class="review-name">Дмитрий Морозов</h3>
+                <span class="review-visit">Предприниматель</span>
+              </div>
+            </div>
+          </article>
+
+
+          <article class="review-card">
+            <div class="review-stars" role="img" aria-label="Оценка 5 из 5">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+            </div>
+            <blockquote class="review-quote">
+              «Локация в самом центре, удобная парковка рядом. Сервис на высоте: приятная музыка, вежливый персонал,
+              идеальный фейд. Теперь только сюда.»
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar">МК</div>
+              <div class="review-meta">
+                <h3 class="review-name">Максим Ковалёв</h3>
+                <span class="review-visit">Архитектор</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Барбершоп EVAL Главная">
+            <span class="logo-main">EVAL<span>.</span></span>
+            <span class="logo-sub">Barbershop Minsk</span>
+          </a>
+          <p>Премиальное пространство мужского стиля. Сохраняем традиции точного барберинга и безупречного сервиса с
+            2022 года.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h2 class="footer-title">Навигация</h2>
+          <ul class="footer-links">
+            <li><a href="index.html#hero" class="footer-link">Главная</a></li>
+            <li><a href="index.html#about" class="footer-link">О барбершопе</a></li>
+            <li><a href="index.html#showcase" class="footer-link">Наши работы</a></li>
+            <li><a href="index.html#reviews" class="footer-link">Отзывы гостей</a></li>
+            <li><a href="catalog.html" class="footer-link">Услуги и цены</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contacts">
+          <h2 class="footer-title">Контакты</h2>
+          <ul class="footer-contacts-list">
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <a href="https://yandex.by/maps/org/eval/52623739810/?ll=27.552534%2C53.861995&z=17.97" target="_blank"
+                rel="noopener noreferrer" class="contact-link">г. Минск, ул. Жореса Алферова, 7</a>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <a href="tel:+375291234567" class="contact-link">+375 (29) 123-45-67</a>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>Пн-Вс: 10:00 — 22:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h2 class="footer-title">Мы в сети</h2>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="Наш Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor"
+                  stroke-width="2"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor"
+                  stroke-width="2"></path>
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"></circle>
+              </svg>
+            </a>
+            <a href="https://telegram.org" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="Наш Telegram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-18.6 7.174a2.235 2.235 0 0 0-.102 4.148l4.475 1.547 1.764 5.378a2.245 2.245 0 0 0 3.738.746l2.846-2.613 4.887 3.593a2.242 2.242 0 0 0 3.518-1.29l3.078-16.516a2.242 2.242 0 0 0-2.432-2.384l-.15.006zm-3.08 4.364l-8.087 7.42-.39 2.766-.757-2.311 9.234-7.875z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 EVAL Barbershop Minsk. Все права защищены.</p>
+        <div class="footer-bottom-links">
+          <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer"
+            class="footer-rs-link">
+            <span>RS School JS/FE 2026</span>
+          </a>
+          <a href="https://github.com/rolling-scopes-school" target="_blank" rel="noopener noreferrer"
+            class="footer-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
