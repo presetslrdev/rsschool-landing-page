@@ -223,9 +223,57 @@
       </div>
     </div>
   </footer>
+
+  <div id="service-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" type="button" aria-label="Закрыть модальное окно">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-content">
+        <div class="modal-media">
+          <img id="modal-image" src="assets/images/1782313920379-yydb0a.webp" alt="Услуга барбершопа" width="480" height="360">
+        </div>
+
+        <div class="modal-body">
+          <span id="modal-tag" class="card-tag"></span>
+          <h2 id="modal-title" class="modal-title"></h2>
+          <p id="modal-desc" class="modal-desc"></p>
+
+          <div class="modal-options-block">
+            <h3 class="modal-option-title">Квалификация барбера</h3>
+            <div id="modal-barber-options" class="modal-options-group" role="radiogroup" aria-label="Квалификация барбера"></div>
+          </div>
+
+          <div class="modal-options-block">
+            <h3 class="modal-option-title">Дополнительный уход</h3>
+            <div id="modal-care-options" class="modal-options-group" role="radiogroup" aria-label="Дополнительный уход"></div>
+          </div>
+
+          <div class="modal-footer">
+            <div class="modal-total">
+              <span class="modal-total-label">Итоговая стоимость:</span>
+              <span id="modal-total-price" class="modal-total-price">0 BYN</span>
+            </div>
+            <button id="modal-submit-btn" type="button" class="btn-primary modal-action-btn">
+              <span>Записаться онлайн</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="js/burger.js"></script>
   <script src="js/services-data.js"></script>
   <script src="js/catalog.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 
 </html>
