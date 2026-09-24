@@ -2,7 +2,9 @@
   const burgerBtn = document.querySelector('.burger-btn');
   const nav = document.querySelector('.nav');
   const overlay = document.querySelector('.menu-overlay');
-  if (!burgerBtn || !nav) return;
+  if (!burgerBtn || !nav) {
+    return;
+  }
 
   function openMenu() {
     burgerBtn.classList.add('active');
