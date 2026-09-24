@@ -76,7 +76,7 @@
 
         <div class="category-tabs-wrapper">
           <div class="category-tabs" role="group" aria-label="Категории услуг">
-            <button class="tab-btn active" type="button">
+            <button class="tab-btn active" type="button" data-category="haircuts">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <circle cx="6" cy="6" r="3"></circle>
@@ -87,7 +87,7 @@
               </svg>
               <span>Мужские стрижки</span>
             </button>
-            <button class="tab-btn" type="button">
+            <button class="tab-btn" type="button" data-category="beard">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M7 11v2a5 5 0 0 0 10 0v-2"></path>
@@ -95,7 +95,7 @@
               </svg>
               <span>Борода и бритьё</span>
             </button>
-            <button class="tab-btn" type="button">
+            <button class="tab-btn" type="button" data-category="combos">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <polygon
@@ -113,169 +113,9 @@
       <div class="container">
         <h2 class="visually-hidden"
           style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">
-          Список мужских стрижек</h2>
+          Каталог услуг барбершопа</h2>
 
-        <div class="catalog-grid">
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Классическая мужская стрижка в EVAL Barbershop"
-                width="400" height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Стрижка</span>
-              <h3 class="card-title">Мужская стрижка</h3>
-              <p class="card-desc">Индивидуальный подбор формы под тип лица, мытье головы с массажем и укладка
-                премиальной мужской косметикой.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">50 BYN</span>
-                  <span class="card-duration">50 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Стрижка Fade и текстурный Crop" width="400"
-                height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Трендовый стиль</span>
-              <h3 class="card-title">Fade &amp; Textured Crop</h3>
-              <p class="card-desc">Безупречный дымчатый переход на висках с текстурным пепельным или матовым верхом.
-                Легко укладывается глиной.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">55 BYN</span>
-                  <span class="card-duration">50 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Удлиненная стрижка ножницами Scissor Cut"
-                width="400" height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Классика</span>
-              <h3 class="card-title">Удлиненная стрижка ножницами</h3>
-              <p class="card-desc">Работа исключительно японскими ножницами ручной ковки для сохранения природной
-                текстуры и подвижности длинных волос.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">60 BYN</span>
-                  <span class="card-duration">60 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Стрижка под машинку Buzz Cut с окантовкой"
-                width="400" height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Минимализм</span>
-              <h3 class="card-title">Стрижка машиной (Buzz Cut)</h3>
-              <p class="card-desc">Короткая практичная стрижка с использованием 1-3 насадок, четкой окантовкой висков и
-                мытьем головы.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">35 BYN</span>
-                  <span class="card-duration">30 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Детская стрижка для мальчиков в Минске"
-                width="400" height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Юниор</span>
-              <h3 class="card-title">Детская стрижка (до 12 лет)</h3>
-              <p class="card-desc">Терпеливый и дружелюбный подход к юным джентльменам. Стильная форма, которую легко
-                поддерживать родителям.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">40 BYN</span>
-                  <span class="card-duration">45 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Комплекс стрижек Отец и Сын в EVAL Barbershop"
-                width="400" height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Семейный комплекс</span>
-              <h3 class="card-title">Отец и сын</h3>
-              <p class="card-desc">Стрижка для двоих в одном пространстве. Отличная традиция совместного мужского отдыха
-                и ухода за собой.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">85 BYN</span>
-                  <span class="card-duration">60 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Камуфляж седины волос для мужчин" width="400"
-                height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Тонирование</span>
-              <h3 class="card-title">Камуфляж седины волос</h3>
-              <p class="card-desc">Деликатное маскирование седины специальным безаммиачным красителем. Сохраняет
-                естественный глубокий тон.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">45 BYN</span>
-                  <span class="card-duration">30 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-
-          <article class="catalog-card">
-            <div class="catalog-card-media">
-              <img src="assets/images/1782313920379-yydb0a.webp" alt="Мужская укладка и SPA мытье головы" width="400"
-                height="300">
-            </div>
-            <div class="catalog-card-body">
-              <span class="card-tag">Стайлинг</span>
-              <h3 class="card-title">Укладка и SPA-мытье головы</h3>
-              <p class="card-desc">Глубокое очищение кожи головы с охлаждающим тоником Reuzel, сушка феном и
-                моделирование формы помадой или пастой.</p>
-              <div class="card-footer">
-                <div class="card-meta">
-                  <span class="card-price">25 BYN</span>
-                  <span class="card-duration">25 минут</span>
-                </div>
-                <button type="button" class="btn-card">Записаться</button>
-              </div>
-            </div>
-          </article>
-        </div>
+        <div class="catalog-grid"></div>
 
         <div class="catalog-actions">
           <button type="button" class="btn-load-more">
@@ -384,6 +224,8 @@
     </div>
   </footer>
   <script src="js/burger.js"></script>
+  <script src="js/services-data.js"></script>
+  <script src="js/catalog.js"></script>
 </body>
 
 </html>
